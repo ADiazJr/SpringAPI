@@ -4,6 +4,10 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+target/
 
 ### STS ###
 .apt_generated
@@ -26,6 +30,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 !**/src/main/resources/application.properties
+src/main/resources/application.properties
+*.properties
 
 ### NetBeans ###
 /nbproject/private/
@@ -34,5 +40,9 @@ out/
 /nbdist/
 /.nb-gradle/
 
+
+
 ### VS Code ###
 .vscode/
+
+
